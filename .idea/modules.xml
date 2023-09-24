@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Character/Character.iml" filepath="$PROJECT_DIR$/Character/Character.iml" />
       <module fileurl="file://$PROJECT_DIR$/Integer/Integer.iml" filepath="$PROJECT_DIR$/Integer/Integer.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/MyJavaDoc.iml" filepath="$PROJECT_DIR$/.idea/MyJavaDoc.iml" />
       <module fileurl="file://$PROJECT_DIR$/Streams/Streams.iml" filepath="$PROJECT_DIR$/Streams/Streams.iml" />
+      <module fileurl="file://$PROJECT_DIR$/String/String.iml" filepath="$PROJECT_DIR$/String/String.iml" />
     </modules>
   </component>
 </project>
