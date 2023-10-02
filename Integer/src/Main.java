@@ -21,6 +21,11 @@ i. Check for Even/Odd: Determine if the Integer object represents an even or odd
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Character a = 'a';
+        Character.
+        if(Character.isDigit(a)){
+            System.out.println("Yes");
+        }
     }
+
 }

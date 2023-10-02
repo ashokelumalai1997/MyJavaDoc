@@ -246,3 +246,47 @@ valueOf(Object obj): Converts an object to its string representation.
 String Building:
 
 StringBuilder and StringBuffer classes provide methods for efficient string building and manipulation.
+
+
+
+### Character methods
+
+Character Conversion:
+
+charValue(): Returns the primitive char value of the Character object.
+Character Testing:
+
+isLetter(char ch): Checks if the character is a letter (alphabetic).
+isDigit(char ch): Checks if the character is a digit (0-9).
+isLetterOrDigit(char ch): Checks if the character is a letter or a digit.
+isUpperCase(char ch): Checks if the character is in uppercase.
+isLowerCase(char ch): Checks if the character is in lowercase.
+isWhitespace(char ch): Checks if the character is a whitespace character (e.g., space, tab, newline).
+
+Character Case Conversion:
+
+toLowerCase(char ch): Converts the character to lowercase.
+toUpperCase(char ch): Converts the character to uppercase.
+
+Character Comparison:
+
+compare(char x, char y): Compares two characters numerically.
+compareTo(Character anotherCharacter): Compares two Character objects.
+
+Character Constants:
+
+MIN_VALUE: The minimum value of a char (0).
+MAX_VALUE: The maximum value of a char (65535).
+
+Character Information:
+
+getType(char ch): Returns the general category of the character.
+getNumericValue(char ch): Returns the numeric value of a digit character.
+
+Character Parsing:
+
+forDigit(int digit, int radix): Returns the character representation of a digit in the specified radix.
+
+Character Escape Sequences:
+
+Characters can be represented using escape sequences in string literals, e.g., '\n' for a newline, '\t' for a tab, etc.
