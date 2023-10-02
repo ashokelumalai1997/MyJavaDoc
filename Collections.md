@@ -56,6 +56,13 @@ list.add(index, element); // Inserts 'element' at the specified index
 // For LinkedList, you can use specific methods like addFirst(), addLast() to insert at the beginning or end.
 ```
 
+
+Update
+
+```
+arrList.set(5, newValue);
+```
+
 2. HashMap, LinkedHashMap, TreeMap
    Creating:
 
@@ -72,6 +79,17 @@ Traversing:
 for (KeyType key : hashMap.keySet()) {
 ValueType value = hashMap.get(key);
 // Process key and value
+}
+
+Map<String, String> map = ...
+for (Map.Entry<String, String> entry : map.entrySet()) {
+    System.out.println(entry.getKey() + "/" + entry.getValue());
+}
+
+On Java 10+:
+
+for (var entry : map.entrySet()) {
+    System.out.println(entry.getKey() + "/" + entry.getValue());
 }
 ```
 
