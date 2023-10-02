@@ -173,3 +173,76 @@ Inserting an Element:
 minHeap.offer(element); // Adds 'element' to the min heap
 maxHeap.offer(element); // Adds 'element' to the max heap
 ```
+
+
+### String
+
+
+String Concatenation:
+
+concat(String str): Concatenates the specified string to the end of the current string.
+
+String Length:
+
+length(): Returns the length (number of characters) of the string.
+
+String Comparison:
+
+equals(Object obj): Compares the content of two strings for equality.
+equalsIgnoreCase(String str): Compares two strings for equality while ignoring case.
+
+Substring:
+
+substring(int beginIndex): Returns a substring from the specified index to the end of the string.
+substring(int beginIndex, int endIndex): Returns a substring from the specified begin index (inclusive) to the specified end index (exclusive).
+
+String Search:
+
+indexOf(int ch): Returns the index of the first occurrence of the specified character.
+indexOf(String str): Returns the index of the first occurrence of the specified substring.
+lastIndexOf(int ch): Returns the index of the last occurrence of the specified character.
+lastIndexOf(String str): Returns the index of the last occurrence of the specified substring.
+
+Character Extraction:
+
+charAt(int index): Returns the character at the specified index.
+
+String Replacement:
+
+replace(char oldChar, char newChar): Replaces all occurrences of the old character with the new character.
+replace(CharSequence target, CharSequence replacement): Replaces all occurrences of the target substring with the replacement substring.
+
+String Splitting:
+
+split(String regex): Splits the string into an array of substrings based on the specified regular expression.
+Trimming:
+
+trim(): Removes leading and trailing whitespace characters from the string.
+
+Case Conversion:
+
+toLowerCase(): Converts the string to lowercase.
+toUpperCase(): Converts the string to uppercase.
+
+String Comparison:
+
+compareTo(String anotherString): Compares two strings lexicographically.
+compareToIgnoreCase(String str): Compares two strings lexicographically while ignoring case.
+
+String Formatting:
+
+format(String format, Object... args): Formats a string using the specified format and arguments.
+
+String Checking:
+
+startsWith(String prefix): Checks if the string starts with the specified prefix.
+endsWith(String suffix): Checks if the string ends with the specified suffix.
+contains(CharSequence sequence): Checks if the string contains the specified character sequence.
+
+String Conversion:
+
+valueOf(Object obj): Converts an object to its string representation.
+
+String Building:
+
+StringBuilder and StringBuffer classes provide methods for efficient string building and manipulation.
